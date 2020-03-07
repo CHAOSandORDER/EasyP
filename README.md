@@ -6,6 +6,7 @@ Just clone the script and run it using
 # cd EasyP
 # chmod +x install.sh
 # ./install.sh
+# just type E to launch it anytime anywhere.
 or you can just "chmod +x easy.sh && ./easy.sh"
 Copy and paste the above commands to run.
 This only requires metasploit to be installed.
