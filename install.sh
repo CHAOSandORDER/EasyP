@@ -15,6 +15,7 @@ sleep 1
 echo "export PATH=/bin/master:$PATH" >> ~/.bashrc
 cd /bin/master
 mv easy.sh E
+chmod +x E 
 export PATH=/bin/master:$PATH
 echo "export PATH=/bin/master:$PATH" >> ~/.bashrc
 E
