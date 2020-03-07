@@ -17,11 +17,10 @@ echo "          by AVISHEK            "
 echo "          Easy Payload          "
 echo "                                "
 
-echo "DEFAULT PAYLOAD : 
-(meterpreter/reverse_tcp)"
-echo "USE CUSTOM FOR DIFFENT PAYLOADS"
-echo "GENRATE APK AND EXE WITH 
-PAYLOADS"
+echo "DEFAULT PAYLOAD : (meterpreter/reverse_tcp)"
+echo "USE CUSTOM FOR DIFFERENT PAYLOADS"
+echo "YOUR GENERATED FILES ARE STORED IN /root/Easypayloads"
+echo "GENRATE APK AND EXE WITH PAYLOADS"
 echo "1. APK"
 echo "2. EXE"
 echo "3. CUSTOM"
@@ -92,4 +91,4 @@ then
   fi
 fi
 cd $pw
-./easy.sh
+E
