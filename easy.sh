@@ -90,5 +90,32 @@ then
     msfconsole -q -r $p
   fi
 fi
+read -p "Start server and Host File (y/n) : " ss
+if [ $ss = y ]
+then
+  read -p "ENABLE PORT FORWARDING (y/n) : " pf
+  if [ $pf = y ]
+  then
+    read -p " SPECIFY PORT ? (y/n) : " sp
+    if [ $sp = y ]
+    then
+      read -p " PORT : " pp
+      service apache2 start
+      cp /root/Easypayloads/$pn /var/www/html
+      ./ngrok http $pp
+    fi
+    if [ $sp = n ]
+    then
+      service apache2 start
+      cp /root/Easypayloads/$pn /var/www/html
+      ./ngrok http 80
+    fi
+  fi
+  if [ $pf = n ]
+  then
+    cp /root/Easypayloads/$pn /var/www/html
+    service apache2 start
+  fi
+fi
 cd $pw
 E
