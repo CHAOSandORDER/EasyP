@@ -25,6 +25,7 @@ mkdir Easypayloads
 cd /root/Easypayloads
 mkdir .msft
 cd .msft
+sudo apt-get install xterm
 sudo apt-get install unzip
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
 unzip *.zip

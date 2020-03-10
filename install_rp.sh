@@ -7,7 +7,7 @@ sudo updatedb
 pa=$(locate "easy.sh")
 cp $pa /bin/master
 clear
-sleep 4
+sleep 2
 export PATH=/bin/master:$PATH
 sleep 1
 echo "export PATH=/bin/master:$PATH" >> ~/.bashrc
@@ -25,6 +25,7 @@ mkdir Easypayloads
 cd /root/Easypayloads
 mkdir .msft
 cd .msft
+sudo apt-get install xterm
 sudo apt-get install unzip
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
 unzip *.zip

