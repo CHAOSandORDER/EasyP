@@ -19,7 +19,7 @@ Requirements: Metasploit , Apache2 server. X11 forwarding over ssh.
 If pressing does not launch the script you can manually launch it from the folder or copy and paste these commandHO in your terminal.
 # export PATH=/bin/master:$PATH && echo "export PATH=/bin/master:$PATH" >> ~/.bashrc
 ---------------------------------------------------------------------------
-# If you are on other distros than kali 
+# If you are on distros other than kali 
 IN CASE YOU ARE WONDERING HOW TO GET METASPLOIT.
 https://github.com/rapid7/metasploit-framework
 APACHE2 SERVER
