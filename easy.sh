@@ -44,7 +44,7 @@ then
     mv $p /root/Easypayloads/.msft
     cd .msft
     clear
-    msfconsole -q -r $p
+    xterm -e "msfconsole -q -r $p" &
   fi
 fi
 if [ $p = 2 ]
@@ -65,7 +65,7 @@ then
     mv $p /root/Easypayloads/.msft
     cd .msft
     clear
-    msfconsole -q -r $p
+    xterm -e "msfconsole -q -r $p" &
   fi
 fi
 if [ $p = 3 ]
@@ -87,7 +87,7 @@ then
     mv $p /root/Easypayloads/.msft
     cd .msft
     clear
-    msfconsole -q -r $p
+    xterm -e "msfconsole -q -r $p" &
   fi
 fi
 read -p "Start server and Host File (y/n) : " ss
