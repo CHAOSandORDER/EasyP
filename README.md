@@ -15,7 +15,7 @@ Copy and paste the above commands to run.
 This only requires metasploit to be installed.
 apt-get update and apt-get upgrade your system before running to avoid issues.
 # WORKS ON ANY LINUX DEVICE ( ARM INCLUDED ). TESTED ON KALI ON VMWARE , VIRTUAL BOX , RASPBERRY PI.
-Requirements: Metasploit , Apache2 server.
+Requirements: Metasploit , Apache2 server. X11 forwarding over ssh.
 If pressing does not launch the script you can manually launch it from the folder or copy and paste these commandHO in your terminal.
 # export PATH=/bin/master:$PATH && echo "export PATH=/bin/master:$PATH" >> ~/.bashrc
 ---------------------------------------------------------------------------
